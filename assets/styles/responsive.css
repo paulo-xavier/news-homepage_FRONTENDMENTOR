@@ -1,0 +1,38 @@
+@media(max-width: 1280px) {
+    main {
+        gap: 50px;
+    }
+}
+
+@media (max-width:980px) {
+    .most-read-images {
+        width: 150%;
+    }
+
+    #highlighted-news-title{
+        width: 40%;
+    }
+}
+
+@media(max-width:851px) {
+
+    .container-page {
+        margin-bottom: 50px;
+    }
+    .first-news,
+    .second-news,
+    .third-news {
+        column-gap: 50px;
+    }
+
+    .first-news-information,
+    .second-news-information,
+    .third-news-information {
+        min-width: 40%;
+    }
+
+    .most-read-images{
+        width: 230%;
+    }
+
+}
