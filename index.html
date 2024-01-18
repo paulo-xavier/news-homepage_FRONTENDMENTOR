@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <div class="container-page">
+
+    
+      <nav>
+        <span class="nav-brand">
+
+          <img class="nav-logo" src="./assets/images/logo.svg" alt="Logo">
+
+        </span>
+
+        <ul class="nav-items">
+
+          <li class="nav-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">New</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Categories</a>
+          </li>
+
+        </ul>
+        <div class="hamburguer-menu"></div>
+
+      </nav>
+    
+
+
+    <main>
+
+      <section id="important-news-section">
+
+        <article id="highlighted-news">
+
+          <figure class="highlighted-news-image">
+            <img id="image-web" src="./assets/images/image-web-3-desktop.jpg" alt="Image containing different geometric shapes">
+          </figure>
+
+          <div class="highlighted-news-information">
+
+            <div id="highlighted-news-title">
+              <h1> The Bright Future of Web 3.0? </h1>
+            </div>
+
+            <div id="highlighted-news-info">
+
+              <p id="highlighted-news-description">
+                We dive into the next evolution of the web that claims to put the power of the platforms back into the
+                hands of the people. But is it really fulfilling in promise?
+              </p>
+
+              <button class="read-more-button">Read more</button>
+            </div>
+
+          </div>
+
+
+        </article>
+
+        <aside class="recent-news">
+          <h2 id="recent-news-tag"> New</h1>
+          
+          <ul class="recent-news-container">
+
+            <li>
+              <h3 class="recent-news-title" style="border: none;"> Hydrogen VS Eletric Cars </h3>
+              <p class="recent-news-description"> Will hydrogen-fueled cars ever catch up to EVs? </p>
+            </li>
+
+            <li>
+              <h3 class="recent-news-title"> The Downsides of AI Artistry </h3>
+              <p class="recent-news-description"> What are the possible adverse effects of on-demand AI image generation?</p>
+            </li>
+
+            <li>
+              <h3 class="recent-news-title"> Is VC Funding Drying Up?</h3>
+              <p class="recent-news-description"> Private funding by VC firms is down 50% YOY. We take a look at what that means. </p>
+            </li>
+
+          </ul>
+
+        </aside>
+
+      </section>
+
+
+
+      <section class="most-read-news-section">
+
+        <ul class="most-read-news">
+
+          <li class="first-news">
+           
+            <figure class="first-news-cover">
+              <img class="most-read-images" src="./assets/images/image-retro-pcs.jpg" alt="First news cover image">
+            </figure>
+            
+            <div class="first-news-information">
+              <span class="news-number">01</span>
+              <h4 class="news-title"> Reviving Retro PCs  </h4>
+              <p class="news-description"> What happens when old PCs are given modern upgrades?</p>
+
+            </div>
+
+          </li>
+
+          <li class="second-news">
+           
+            <figure class="second-news-cover">
+              <img class="most-read-images" src="./assets/images/image-top-laptops.jpg" alt="Second news cover image">
+            </figure>
+            
+            <div class="second-news-information">
+              <span class="news-number">02</span>
+              <h4 class="news-title"> Top 10 Laptops of 2022</h4>
+              <p class="news-description"> Our best picks for various needs and budgets. </p>
+
+            </div>
+
+          </li>
+          
+          <li class="third-news">
+           
+            <figure class="third-news-cover">
+              <img class="most-read-images" src="./assets/images/image-gaming-growth.jpg" alt="Third news cover image">
+            </figure>
+            
+            <div class="third-news-information">
+              <span class="news-number">03</span>
+              <h4 class="news-title"> The Growth of Gaming</h4>
+              <p class="news-description" style="width: 97%;"> How the pandemic has sparked fresh opportunities.</p>
+
+            </div>
+
+          </li>
+
+        
+        </ul>
+
+      </section>
+
+
+    </main>
+
+  </div>
+
+
+</body>
+
+
+</html>
