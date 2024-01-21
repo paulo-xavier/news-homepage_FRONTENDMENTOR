@@ -19,6 +19,7 @@
     .container-page {
         margin-bottom: 50px;
     }
+
     .first-news,
     .second-news,
     .third-news {
@@ -33,6 +34,27 @@
 
     .most-read-images{
         width: 230%;
+    }
+
+}
+
+@media (max-width: 836px) {
+    .most-read-news {
+        flex-direction: column;
+        /* background-color: red; */
+        height: 60%;
+    }
+
+    .most-read-images {
+        width: inherit;
+        height: inherit;
+    }
+    
+    .first-news, 
+    .second-news, 
+    .third-news {
+        background-color: red;
+        column-gap: 0px !important;
     }
 
 }

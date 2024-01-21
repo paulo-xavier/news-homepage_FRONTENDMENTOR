@@ -1,9 +1,6 @@
 @media (max-width: 836px) {
 
-    body {
-        
-    }
-    .hamburguer-menu {
+    #hamburguer-menu {
         background: url('../images/hamburguer-menu.png') no-repeat;
         width: 40px;
         height: 26px;
@@ -11,8 +8,17 @@
         cursor: pointer;
         border: none;
         z-index: 10;
-
         transition: all .3s;
+    }
+
+    #hamburguer-menu.active {
+        background: url('../images/close-button.png') no-repeat;
+        width: 40px;
+        height: 26px;
+        background-size: contain;
+        cursor: pointer;
+        border: none;
+        z-index: 10;
     }
 
     .nav-items{
@@ -27,9 +33,8 @@
         gap: 20px; 
         width: 23%;
         z-index: 10;
-        
-        transform: translateX(100%);
-        transition: 3s ease-in-out;
+        transform: translateX(160%);
+        transition: 1s ease-in-out;
     }
 
     .nav-items.active{
@@ -43,6 +48,9 @@
     }
 
 }
+
+
+
 
 
 @media (max-width: 764px) {
