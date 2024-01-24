@@ -17,5 +17,6 @@ navItem.forEach(item => item.addEventListener('click', () => {
     if (navItemsIsActive) {
         navItems.classList.remove('active'); 
         hamburguerMenu.classList.remove('active');
+        main.classList.remove('active');
     }
 })); 
