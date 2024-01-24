@@ -15,33 +15,19 @@
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="./assets/styles/responsive.css">
     <link rel="stylesheet" href="./assets/styles/hamburguerMenu.css">
-
+    <link rel="stylesheet" href="./assets/styles/scrollbar.css">
+    
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-
 </head>
-
 
 <body>
   <div class="container-page">
 
-    
       <nav>
+
         <span class="nav-brand">
-
           <img class="nav-logo" src="./assets/images/logo.svg" alt="Logo">
-
         </span>
 
         <ul class="nav-items" id="nav-items">
@@ -67,8 +53,6 @@
 
       </nav>
     
-
-
     <main>
 
       <section id="important-news-section">
@@ -76,7 +60,12 @@
         <article id="highlighted-news">
 
           <figure class="highlighted-news-image">
-            <img id="image-web" src="./assets/images/image-web-3-desktop.jpg" alt="Image containing different geometric shapes">
+            
+              <picture>
+                  <source media="(max-width:425px)" srcset="./assets/images/image-web-3-mobile.jpg">
+                  <img id="image-web" src="./assets/images/image-web-3-desktop.jpg" alt="Image containing different geometric shapes">
+              </picture>
+            
           </figure>
 
           <div class="highlighted-news-information">
@@ -85,7 +74,7 @@
               <h1> The Bright Future of Web 3.0? </h1>
             </div>
 
-            <div id="highlighted-news-info">
+            <div id="highlighted-news-details">
 
               <p id="highlighted-news-description">
                 We dive into the next evolution of the web that claims to put the power of the platforms back into the
@@ -97,10 +86,10 @@
 
           </div>
 
-
         </article>
 
         <aside class="recent-news">
+
           <h2 id="recent-news-tag"> New</h1>
           
           <ul class="recent-news-container">
@@ -126,8 +115,6 @@
 
       </section>
 
-
-
       <section class="most-read-news-section">
 
         <ul class="most-read-news">
@@ -135,14 +122,13 @@
           <li class="first-news">
            
             <figure class="first-news-cover">
-              <img class="most-read-images" src="./assets/images/image-retro-pcs.jpg" alt="First news cover image">
+              <img class="most-read-images" src="./assets/images/image-retro-pcs.jpg" alt="Retro computers cover image">
             </figure>
             
             <div class="first-news-information">
               <span class="news-number">01</span>
               <h4 class="news-title"> Reviving Retro PCs  </h4>
               <p class="news-description"> What happens when old PCs are given modern upgrades?</p>
-
             </div>
 
           </li>
@@ -150,14 +136,13 @@
           <li class="second-news">
            
             <figure class="second-news-cover">
-              <img class="most-read-images" src="./assets/images/image-top-laptops.jpg" alt="Second news cover image">
+              <img class="most-read-images" src="./assets/images/image-top-laptops.jpg" alt="Top laptops cover image">
             </figure>
             
             <div class="second-news-information">
               <span class="news-number">02</span>
               <h4 class="news-title"> Top 10 Laptops of 2022</h4>
               <p class="news-description"> Our best picks for various needs and budgets. </p>
-
             </div>
 
           </li>
@@ -165,31 +150,29 @@
           <li class="third-news">
            
             <figure class="third-news-cover">
-              <img class="most-read-images" src="./assets/images/image-gaming-growth.jpg" alt="Third news cover image">
+              <img class="most-read-images" src="./assets/images/image-gaming-growth.jpg" alt="A hand and a video game controller cover image">
             </figure>
             
             <div class="third-news-information">
               <span class="news-number">03</span>
               <h4 class="news-title"> The Growth of Gaming</h4>
               <p class="news-description" style="width: 97%;"> How the pandemic has sparked fresh opportunities.</p>
-
             </div>
 
           </li>
 
-        
         </ul>
 
       </section>
 
-
     </main>
+
+    <footer>
+       <p> Developed by <a id="attribution" href="https://github.com/paulo-xavier" target="_blank">Paulo Xavier 🤓♥</a></p>
+    </footer>
 
   </div>
 
-
     <script src="./assets/js/index.js"> </script>
 </body>
-
-
 </html>

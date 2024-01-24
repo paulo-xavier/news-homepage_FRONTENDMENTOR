@@ -1,38 +1,25 @@
 :root {
-    --button-main-color: hsl(5, 85%, 63%);
-    --recent-news-title-color: hsl(36, 100%, 99%); 
-    --recent-news-background:  hsl(240, 100%, 5%); 
-    --recent-news-description-color: hsl(233, 8%, 79%); 
-    --recent-news-tag-color: hsl(35, 77%, 62%); 
-    --main-text-color: hsl(236, 13%, 42%); 
+    --button-main-color: rgb(241, 94, 80);
+    --recent-news-title-color: rgb(255, 253, 250); 
+    --recent-news-background:  rgb(0, 0, 26); 
+    --recent-news-description-color: rgb(197, 198, 206); 
+    --recent-news-tag-color: rgb(233, 171, 83); 
+    --main-text-color: rgb(93, 95, 121); 
 }
 
-/* 
-Off-white: hsl(36, 100%, 99%)
-Grayish blue: hsl(233, 8%, 79%)
-Dark grayish blue: hsl(236, 13%, 42%)
-Very dark blue: hsl(240, 100%, 5%) */
-
-
-
 body {
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     min-height: 100vh;
     overflow-x: hidden ;
 }   
 
-
 .container-page {
-     /* background-color: rgba(255, 0, 0, 0.224);  */
-     
     height: 100%;
     width: 70vw;
 }
 
 nav{
-    /* background-color: green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +36,6 @@ nav{
 }
 
 .nav-items {
-    /* background: red; */
     color: var(--main-text-color); 
     display: flex;
     column-gap: 20px;
@@ -69,9 +55,7 @@ nav{
     color: var(--button-main-color);
 }
 
-
 main {
-    /* background: red; */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -83,7 +67,6 @@ main.active {
 
 
 #important-news-section {
-    /* background-color: lightblue; */
     display: flex;
     column-gap: 17px;
     width: 100%;
@@ -91,20 +74,16 @@ main.active {
 }
 
 #highlighted-news {
-    /* background-color: lightcoral; */
     width: 65%;
-    /* height: 20px; */
 }
 
 #image-web {
     width: 100%;    
     height: 200px;
     object-fit: cover;
-    
 }
 
 .highlighted-news-information {
-    /* background-color: lightgreen; */
     margin: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -113,20 +92,17 @@ main.active {
 }
 
 #highlighted-news-title {
-    /* background-color: red; */
     font-size: 29px;
     width: 33%;
     font-weight: 800;
 }
 
 #highlighted-news-description {
-    /* background-color: lightslategrey; */
     width: 25vw;
     font-size: 15px;
     line-height: 22px;
     color: var(--main-text-color);
 }
-
 
 .read-more-button {
     background-color: var(--button-main-color);
@@ -144,13 +120,11 @@ main.active {
     cursor: pointer;
     transition: all .3s;
 }
-.read-more-button:hover {
-    
+.read-more-button:hover {    
     background-color: var(--recent-news-background);
 }
 
-
-/**/ 
+/*Recent news*/ 
 
 .recent-news {
     background-color:  var(--recent-news-background);
@@ -166,13 +140,11 @@ main.active {
 }
 
 .recent-news-container {
-    /* background-color: rgb(87, 99, 102); */
     display: flex;
     flex-direction: column;
     margin-top: -13px;
     margin-left: 18px;
 }
-
 
 .recent-news-title {
     color: var(--recent-news-title-color); 
@@ -202,8 +174,6 @@ main.active {
 
 .most-read-news {
     display: flex;
-    /* background-color: darkblue; */
-
     height: auto;
     gap: 15px;
 }
@@ -218,7 +188,6 @@ main.active {
 .first-news-cover, 
 .second-news-cover, 
 .third-news-cover {
-    /* background-color: red; */
     width: 40%;
 }
 
@@ -226,17 +195,14 @@ main.active {
     width: 120%;
     height: 100%;
     object-fit: cover;
-    
 }
 
 .first-news-information, 
 .second-news-information, 
 .third-news-information {
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-
 }
 
 .news-number {
@@ -260,5 +226,18 @@ main.active {
     font-size: 13px;
     line-height: 20px;
     width: 87%;
-    /* background-color: darkgreen; */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--recent-news-background);
+    color: white;
+    margin: 30px 0 20px 0;
+    height: 40px;
+    font-size: 14px;
+}
+#attribution {
+    color: var(--recent-news-tag-color);
 }

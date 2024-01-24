@@ -1,0 +1,25 @@
+/* 
+
+===== Scrollbar CSS ===== 
+Created on: https://codepen.io/stephenpaton-tech/full/JjRvGmY
+
+*/
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: rgb(0, 0, 26) rgb(255, 255, 255);
+  }
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 26);
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+  }
