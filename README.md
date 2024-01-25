@@ -39,11 +39,11 @@ Users should be able to:
 - 100% for Best practices
 - 100% for SEO
 
-### My gains and tools for testing 🎁  
+### My gains and tools for testing 🛠  
 
-Throughout the development of this project I focused on applying best practices for HTML structure, including descriptive names for IDs and classes, meta description, attributes for improving performance and accessibility, etc. The tool I used for testing those parameters was Lighthouse, provided by Google. 
+Throughout the development of this project I focused on applying best practices for HTML structure, including descriptive names for IDs and classes, meta description, attributes for improving performance and accessibility, etc. The tool I used for testing those parameters was [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=pt-BR&pli=1), provided by Google. 
 
-I also focused on developing a responsive website for all devices, providing a flexible design for improving user experience. For testing those parameters I used Responsive Viewer and Simulador de Celular.
+I also focused on developing a responsive website for all devices, providing a flexible design for improving user experience. For testing those parameters I used [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=pt-BR) and [Mobile Simulator](https://chromewebstore.google.com/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk).
 
 
 ## Screnshot 🖼
