@@ -3,14 +3,14 @@
 This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl) developed using HTML, CSS and Javascript.  
 ## Table of contents 
 
-- [About the project]()
-    - [The challenge]()
-    - [Technologies used]()
-- [Stats according Lighthouse]()
-    - [My gains and tools for testing]()
-- [Screenshot]()
-- [Links]()
-- [Author]()
+- [About the project](#about-the-project-ℹ)
+    - [The challenge](#the-challenge-)
+    - [Technologies used](#technologies-used-)
+- [Stats according Lighthouse](#stats-according-lighthouse-)
+    - [My gains and tools for testing](#my-gains-and-tools-for-testing-)
+- [Screenshot](#screenshot-)
+- [Links](#links-)
+- [Author](#author)
 
 
 ## About the project ℹ 
@@ -66,8 +66,8 @@ I also focused on developing a responsive website for all devices, providing a f
 
 
 ## Links 🔗
-- Repository: [✅ Click here!]()
-- Live preview: [✅ Click here!]()
+- Repository: [✅ Click here!](https://github.com/paulo-xavier/news-homepage_FRONTENDMENTOR)
+- Live preview: [✅ Click here!](https://paulo-xavier.github.io/news-homepage_FRONTENDMENTOR/)
 
 ## Author
 - **Frontend Mentor** - [@paulo-xavier](https://www.frontendmentor.io/profile/paulo-xavier)
